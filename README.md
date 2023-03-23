@@ -26,7 +26,7 @@ In this project, let's build a **Destination Search** app by applying the concep
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
 </details>
-
+ 
 ### Completion Instructions
 
 <details>
@@ -70,25 +70,6 @@ Use these files to complete the implementation:
 - `src/components/DestinationItem/index.css`
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The search for the destination should be case insensitive. You can use the `toLowerCase` method to convert a string into lower case letters.
-
-  ```js
-  const text = 'Learn JavaScript'
-  console.log(text.toLowerCase()); // learn javascript
-  ```
-
-- Each `DestinationItem` should have an HTML image element with `alt` attribute value as the value of the key **name** in `destinationsList`
-
-</details>
 
 ### Resources
 
